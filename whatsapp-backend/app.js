@@ -10,9 +10,9 @@ const app = express()
 const port = process.env.PORT || 9000;
 
 const pusher = new Pusher({
-  appId: "1332524",
-  key: "59949f0d499d443ca859",
-  secret: "bcd428cdda116fc27993",
+  appId: "1719463",
+  key: "d2bcaa4ba3dd920bc06e",
+  secret: "c959f3140848218cfd86",
   cluster: "ap2",
   useTLS: true
 });
