@@ -17,7 +17,7 @@ const [messages, setMessages] = useState([]);
   }, []);
 
   useEffect(() => {
-    const pusher = new Pusher('59949f0d499d443ca859', {
+    const pusher = new Pusher('d2bcaa4ba3dd920bc06e', {
       cluster: 'ap2'
     });
 
